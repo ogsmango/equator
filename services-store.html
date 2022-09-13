@@ -1,0 +1,933 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Equator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header bg-color-primary-white position-fixed py-2">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <div class="wrapper contain">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-3 me-lg-4 mb-2 mb-lg-0">
+                        <li class="nav-item me-3 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Послуги
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" aria-current="page" href="#">Портфоліо</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" aria-current="page" href="#">Відгуки</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" aria-current="page" href="#">Про нас</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" aria-current="page" href="#">Контакти</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" aria-current="page" href="#">Блог</a>
+                        </li>
+                        <li class="nav-item me-3 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                UA
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">RU</a></li>
+                                <li><a class="dropdown-item" href="#">UA</a></li>
+                                <li><a class="dropdown-item" href="#">EN</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a class="btn me-3">
+                        <div class="d-flex align-items-center">
+                            <span class="me-2">Давайте попрацюємо</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM22.7071 12.7071C23.0976 12.3166 23.0976 11.6834 22.7071 11.2929L16.3431 4.92893C15.9526 4.53841 15.3195 4.53841 14.9289 4.92893C14.5384 5.31946 14.5384 5.95262 14.9289 6.34315L20.5858 12L14.9289 17.6569C14.5384 18.0474 14.5384 18.6805 14.9289 19.0711C15.3195 19.4616 15.9526 19.4616 16.3431 19.0711L22.7071 12.7071ZM2 13H22V11H2V13Z"
+                                    fill="#292929"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="reviews py-4 py-lg-5 mt-4 mt-lg-5">
+            <div class="container mt-4 mt-lg-5">
+                <div class="wrapper-top">
+                    <p class="font-color-secondary-black font-main-medium mb-2 mb-lg-3">Головна | Полсуги |
+                        Інтернет-магазин</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="marquee-wrapper">
+            <div class="marquee py-3 py-lg-4 bg-color-main">
+                <ul class="marquee__content">
+                    <li><span class="heading-1 font-color-primary-black mx-4">ІНТЕРНЕТ-МАГАЗИН</span></li>
+                    <li><span class="heading-1 font-color-primary-black mx-4">**</span></li>
+                    <li><span class="heading-1 font-color-primary-black mx-4">ІНТЕРНЕТ-МАГАЗИН</span></li>
+                    <li><span class="heading-1 font-color-primary-black mx-4">**</span></li>
+                    <li><span class="heading-1 font-color-primary-black mx-4">ІНТЕРНЕТ-МАГАЗИН</span></li>
+                    <li><span class="heading-1 font-color-primary-black mx-4">**</span></li>
+                </ul>
+                <ul aria-hidden="true" class="marquee__content">
+                    <li><span class="heading-1 font-color-primary-black mx-4">ІНТЕРНЕТ-МАГАЗИН</span></li>
+                    <li><span class="heading-1 font-color-primary-black mx-4">**</span></li>
+                    <li><span class="heading-1 font-color-primary-black mx-4">ІНТЕРНЕТ-МАГАЗИН</span></li>
+                    <li><span class="heading-1 font-color-primary-black mx-4">**</span></li>
+                    <li><span class="heading-1 font-color-primary-black mx-4">ІНТЕРНЕТ-МАГАЗИН</span></li>
+                    <li><span class="heading-1 font-color-primary-black mx-4">**</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="services-single bg-color-primary-white borders py-4 py-lg-5 mb-4 mb-lg-5">
+            <div class="container py-4 py-lg-5">
+                <div class="wrapper-contacts row">
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <h3 class="heading-3 mb-5">Ми створюємо корпоративні сайти з крутим унівкальним дизайном,
+                                які максимально розкриють ваш бізнес та швидко залучить нових клієнтів.</h3>
+                        </div>
+                        <div class="col-12 col-lg-4 d-flex justify-content-end align-items-center">
+                            <div>
+                                <a class="wrapper-round-btn position-relative bg-color-primary-white borders">
+                                    <img class="position-absolute" src="img/round-text-2.svg" alt="">
+                                    <div class="round-btn">
+                                        <img src="img/btn-round-arrow.svg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-9">
+                            <div class="contacts-item py-3 py-lg-4">
+                                <p class="heading-1 mb-3 mb-lg-4">20+</p>
+                                <p class="heading-4 font-color-secondary-black">Корпоративних сайтів ми запустили за
+                                    останній рік</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-9">
+                            <div class="contacts-item py-3 py-lg-4">
+                                <p class="heading-1 mb-3 mb-lg-4">100%</p>
+                                <p class="heading-4 font-color-secondary-black">Клієнтів залишились задоволені нашою
+                                    роботою</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="pb-4 pb-lg-5"></div>
+
+        <section class="perevagy bg-color-primary-black rounded py-4 py-lg-5 my-4 my-lg-5">
+            <div class="container py-4 py-lg-5">
+                <p class="font-color-secondary-white font-main-medium text-uppercase mb-2 mb-lg-3">ПЕРЕВАГИ</p>
+                <h2 class="heading-2 font-color-primary-white line-2 mb-5 w-75">Інтернет-магазин має ряд переваг перед
+                    іншими типами сайтами</h2>
+                <div class="d-flex flex-wrap">
+                    <div
+                        class="perevagy-item d-flex align-items-center justify-content-center bg-color-aux-yellow px-4 px-lg-5 me-3 mb-3">
+                        <span class="heading-3">Пасивні продажі 24/7</span>
+                    </div>
+                    <div
+                        class="perevagy-item d-flex align-items-center justify-content-center bg-color-primary-white me-3 mb-3">
+                        <img src="img/i-what-2.png" alt="">
+                    </div>
+                    <div
+                        class="perevagy-item d-flex align-items-center justify-content-center bg-color-main px-4 px-lg-5 me-3 mb-3">
+                        <span class="heading-3">Будь-яка кількість товарів</span>
+                    </div>
+                    <div
+                        class="perevagy-item d-flex align-items-center justify-content-center bg-color-primary-white me-3 mb-3">
+                        <img src="img/i-whinking.png" alt="">
+                    </div>
+                    <div
+                        class="perevagy-item d-flex align-items-center justify-content-center bg-color-aux-green px-4 px-lg-5 me-3 mb-3">
+                        <span class="heading-3">Складні функції: особистий кабінет, бонусна програма і т.і.</span>
+                    </div>
+                    <div
+                        class="perevagy-item d-flex align-items-center justify-content-center bg-color-aux-blue px-4 px-lg-5 me-3 mb-3">
+                        <span class="heading-3 font-color-primary-white">Зручна навігація</span>
+                    </div>
+                    <div
+                        class="perevagy-item d-flex align-items-center justify-content-center bg-color-aux-yellow me-3 mb-3">
+                        <img src="img/i-instrum.png" alt="">
+                    </div>
+                    <div
+                        class="perevagy-item d-flex align-items-center justify-content-center bg-color-aux-red px-4 px-lg-5 me-3 mb-3">
+                        <span class="heading-3 font-color-primary-white">Відео-уроки по просуванню</span>
+                    </div>
+                    <div
+                        class="perevagy-item d-flex align-items-center justify-content-center bg-color-aux-pink px-4 px-lg-5 me-3 mb-3">
+                        <span class="heading-3 font-color-primary-white">Синхронізація зі сторонніми сервісами</span>
+                    </div>
+                    <div
+                        class="perevagy-item d-flex align-items-center justify-content-center bg-color-primary-white px-4 px-lg-5 me-3 mb-3">
+                        <span class="heading-3">Інструкції з редагування</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="pb-4 pb-lg-5"></div>
+
+        <section
+            class="services-single-hero bg-color-primary-white rounded borders py-4 py-lg-5 my-4 my-lg-5">
+            <div class="container py-4 py-lg-5">
+                <h2 class="heading-2 line-2 mb-5">Кожен проєкт проходить<br>через п’ять основних етапів</h2>
+                <table class="w-100">
+                    <thead>
+                        <tr>
+                            <th>
+                                <span class="subtitle font-color-secondary-black">1 тиждень</span>
+                            </th>
+                            <th>
+                                <span class="subtitle font-color-secondary-black">2 тиждень</span>
+                            </th>
+                            <th>
+                                <span class="subtitle font-color-secondary-black">3 тиждень</span>
+                            </th>
+                            <th>
+                                <span class="subtitle font-color-secondary-black">4 тиждень</span>
+                            </th>
+                            <th>
+                                <span class="subtitle font-color-secondary-black">5 тиждень</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="table-pill table-pill-1 position-absolute d-flex text-nowrap align-items-center font-main-medium bg-color-aux-red font-color-primary-white borders rounded">
+                                    <img class="me-3" src="img/i-Memo.png" alt="">
+                                    Дослідження
+                                </div>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <div class="table-pill table-pill-2 position-absolute d-flex text-nowrap align-items-center font-main-medium bg-color-aux-blue font-color-primary-white borders rounded">
+                                    <img class="me-3" src="img/i-Gear.png" alt="">
+                                    Розрока структури
+                                </div>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <div class="table-pill table-pill-3 position-absolute d-flex text-nowrap align-items-center font-main-medium bg-color-aux-green borders rounded">
+                                    <img class="me-3" src="img/i-Figma.png" alt="">
+                                    Створення дизайну
+                                </div>
+                            </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <div class="table-pill table-pill-4 position-absolute d-flex text-nowrap align-items-center font-main-medium bg-color-aux-yellow borders rounded">
+                                    <img class="me-3" src="img/i-wp.png" alt="">
+                                    Розробка на WordPress
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <div class="table-pill table-pill-5 position-absolute d-flex text-nowrap align-items-center font-main-medium font-color-primary-white bg-color-aux-pink borders rounded">
+                                    <img class="me-3" src="img/i-check.png" alt="">
+                                    Тестування та запуск продукту
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="portfolio py-4 py-lg-5 my-4 my-lg-5">
+            <div class="container">
+                <div class="wrapper-top">
+                    <p class="font-color-secondary-black font-main-medium text-uppercase mb-2 mb-lg-3">ПОРТФОЛІО</p>
+                    <div class="d-flex justify-content-between flex-shrink-0 mb-3 mb-lg-4">
+                        <h2 class="heading-2 line-1">Реалізовані проєкти</h2>
+                        <a href=""
+                            class="btn-arrow color-arrow font-color-primary-black font-main-medium d-flex align-items-center">
+                            Всі проєкти
+                            <svg class="ms-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM22.7071 12.7071C23.0976 12.3166 23.0976 11.6834 22.7071 11.2929L16.3431 4.92893C15.9526 4.53841 15.3195 4.53841 14.9289 4.92893C14.5384 5.31946 14.5384 5.95262 14.9289 6.34315L20.5858 12L14.9289 17.6569C14.5384 18.0474 14.5384 18.6805 14.9289 19.0711C15.3195 19.4616 15.9526 19.4616 16.3431 19.0711L22.7071 12.7071ZM2 13H22V11H2V13Z"
+                                    fill="#292929" />
+                            </svg>
+                        </a>
+                    </div>
+                    <p class="subtitle w-75">Протягом 2 років ми реалізували більше, ніж 120 проєктів</p>
+                </div>
+            </div>
+            <div class="wrapper-portfolio bg-color-primary-white rounded borders py-4 py-lg-5 my-4 my-lg-5">
+                <div class="container py-4 py-lg-5">
+                    <div class="row">
+                        <div class="col-12 col-lg-5 d-flex flex-column justify-content-between">
+                            <div class="portfolio-top">
+                                <div class="d-flex justify-content-between flex-shrink-0 mb-2 mb-lg-3">
+                                    <h3 class="heading-3 line-5">ZernoGrad</h3>
+                                </div>
+                                <p class="subtitle font-color-secondary-black">Лендінг для таргетованої реклами Facebook
+                                    компанії-імпортера європейських елеваторів</p>
+                                <ul class="d-flex align-items-center flex-wrap mt-4 mt-lg-5">
+                                    <li class="me-4">Лендінг</li>
+                                    <li class="me-4">|</li>
+                                    <li class="me-4">Корпоративний сайт</li>
+                                    <li class="me-4">|</li>
+                                    <li class="me-4">UX-копірайтинг</li>
+                                    <li class="me-4">|</li>
+                                </ul>
+                            </div>
+                            <div class="portfolio-bottom d-flex align-items-center">
+                                <a class="btn btn-white me-3">
+                                    <div class="d-flex align-items-center">
+                                        <span class="me-2">Подивитися кейс</span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM22.7071 12.7071C23.0976 12.3166 23.0976 11.6834 22.7071 11.2929L16.3431 4.92893C15.9526 4.53841 15.3195 4.53841 14.9289 4.92893C14.5384 5.31946 14.5384 5.95262 14.9289 6.34315L20.5858 12L14.9289 17.6569C14.5384 18.0474 14.5384 18.6805 14.9289 19.0711C15.3195 19.4616 15.9526 19.4616 16.3431 19.0711L22.7071 12.7071ZM2 13H22V11H2V13Z"
+                                                fill="#292929" />
+                                        </svg>
+                                    </div>
+                                </a>
+                                <a href="" class="me-3">
+                                    <img src="img/Behance.png" alt="">
+                                </a>
+                                <a href="" class="me-3">
+                                    <img src="img/Dribbble.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 offset-lg-1 position-relative">
+                            <div class="wrapper cover">
+                                <img src="img/port-1.jpg" alt="">
+                            </div>
+                            <a class="wrapper-play-btn position-absolute bg-color-primary-white borders">
+                                <img class="position-absolute" src="img/text-circle-2.png" alt="">
+                                <div class="play-btn">
+                                    <img src="img/i-play.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-portfolio bg-color-primary-white rounded borders py-4 py-lg-5 my-4 my-lg-5">
+                <div class="container py-4 py-lg-5">
+                    <div class="row">
+                        <div class="col-12 col-lg-5 d-flex flex-column justify-content-between">
+                            <div class="portfolio-top">
+                                <div class="d-flex justify-content-between flex-shrink-0 mb-2 mb-lg-3">
+                                    <h3 class="heading-3 line-5">Trans Logistics Group</h3>
+                                </div>
+                                <p class="subtitle font-color-secondary-black">Лендінг для таргетованої реклами Facebook
+                                    компанії-імпортера європейських елеваторів</p>
+                                <ul class="d-flex align-items-center flex-wrap mt-4 mt-lg-5">
+                                    <li class="me-4">Лендінг</li>
+                                    <li class="me-4">|</li>
+                                    <li class="me-4">Корпоративний сайт</li>
+                                    <li class="me-4">|</li>
+                                    <li class="me-4">UX-копірайтинг</li>
+                                    <li class="me-4">|</li>
+                                </ul>
+                            </div>
+                            <div class="portfolio-bottom d-flex align-items-center">
+                                <a class="btn btn-white me-3">
+                                    <div class="d-flex align-items-center">
+                                        <span class="me-2">Подивитися кейс</span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM22.7071 12.7071C23.0976 12.3166 23.0976 11.6834 22.7071 11.2929L16.3431 4.92893C15.9526 4.53841 15.3195 4.53841 14.9289 4.92893C14.5384 5.31946 14.5384 5.95262 14.9289 6.34315L20.5858 12L14.9289 17.6569C14.5384 18.0474 14.5384 18.6805 14.9289 19.0711C15.3195 19.4616 15.9526 19.4616 16.3431 19.0711L22.7071 12.7071ZM2 13H22V11H2V13Z"
+                                                fill="#292929" />
+                                        </svg>
+                                    </div>
+                                </a>
+                                <a href="" class="me-3">
+                                    <img src="img/Behance.png" alt="">
+                                </a>
+                                <a href="" class="me-3">
+                                    <img src="img/Dribbble.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 offset-lg-1 position-relative">
+                            <div class="wrapper cover">
+                                <img src="img/port-2.jpg" alt="">
+                            </div>
+                            <a class="wrapper-play-btn position-absolute bg-color-primary-white borders">
+                                <img class="position-absolute" src="img/text-circle-2.png" alt="">
+                                <div class="play-btn">
+                                    <img src="img/i-play.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-portfolio bg-color-main rounded borders py-4 py-lg-5 my-4 my-lg-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <div class="d-flex align-items-center mb-2">
+                                <h3 class="heading-3 me-2">Не знайшли те, що шукали?</h3>
+                                <img src="img/i-thinking.png" alt="">
+                            </div>
+                            <p class="subtitle">
+                                Але цей сайь майже точно в нас є!<br>Залиште заявку і ми відправимо вам приклади наших сайтів з вашої ніші.
+                            </p>
+                        </div>
+                        <div class="col-12 col-lg-4 d-flex justify-content-end">
+                            <div>
+                                <a class="btn btn-black me-3">
+                                    <div class="d-flex align-items-center">
+                                        <span class="me-2 font-color-primary-white">Більше прикладів</span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM22.7071 12.7071C23.0976 12.3166 23.0976 11.6834 22.7071 11.2929L16.3431 4.92893C15.9526 4.53841 15.3195 4.53841 14.9289 4.92893C14.5384 5.31946 14.5384 5.95262 14.9289 6.34315L20.5858 12L14.9289 17.6569C14.5384 18.0474 14.5384 18.6805 14.9289 19.0711C15.3195 19.4616 15.9526 19.4616 16.3431 19.0711L22.7071 12.7071ZM2 13H22V11H2V13Z"
+                                                fill="#ffffff" />
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-portfolio bg-color-primary-white rounded borders py-4 py-lg-5 my-4 my-lg-5">
+                <div class="container py-4 py-lg-5">
+                    <div class="row">
+                        <div class="col-12 col-lg-5 d-flex flex-column justify-content-between">
+                            <div class="portfolio-top">
+                                <div class="d-flex justify-content-between flex-shrink-0 mb-2 mb-lg-3">
+                                    <h3 class="heading-3 line-5">Nicefeel</h3>
+                                </div>
+                                <p class="subtitle font-color-secondary-black">Лендінг для таргетованої реклами Facebook
+                                    компанії-імпортера європейських елеваторів</p>
+                                <ul class="d-flex align-items-center flex-wrap mt-4 mt-lg-5">
+                                    <li class="me-4">Лендінг</li>
+                                    <li class="me-4">|</li>
+                                    <li class="me-4">Корпоративний сайт</li>
+                                    <li class="me-4">|</li>
+                                    <li class="me-4">UX-копірайтинг</li>
+                                    <li class="me-4">|</li>
+                                </ul>
+                            </div>
+                            <div class="portfolio-bottom d-flex align-items-center">
+                                <a class="btn btn-white me-3">
+                                    <div class="d-flex align-items-center">
+                                        <span class="me-2">Подивитися кейс</span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM22.7071 12.7071C23.0976 12.3166 23.0976 11.6834 22.7071 11.2929L16.3431 4.92893C15.9526 4.53841 15.3195 4.53841 14.9289 4.92893C14.5384 5.31946 14.5384 5.95262 14.9289 6.34315L20.5858 12L14.9289 17.6569C14.5384 18.0474 14.5384 18.6805 14.9289 19.0711C15.3195 19.4616 15.9526 19.4616 16.3431 19.0711L22.7071 12.7071ZM2 13H22V11H2V13Z"
+                                                fill="#292929" />
+                                        </svg>
+                                    </div>
+                                </a>
+                                <a href="" class="me-3">
+                                    <img src="img/Behance.png" alt="">
+                                </a>
+                                <a href="" class="me-3">
+                                    <img src="img/Dribbble.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 offset-lg-1 position-relative">
+                            <div class="wrapper cover">
+                                <img src="img/port-3.jpg" alt="">
+                            </div>
+                            <a class="wrapper-play-btn position-absolute bg-color-primary-white borders">
+                                <img class="position-absolute" src="img/text-circle-2.png" alt="">
+                                <div class="play-btn">
+                                    <img src="img/i-play.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-portfolio bg-color-primary-white rounded borders py-4 py-lg-5 my-4 my-lg-5">
+                <div class="container py-4 py-lg-5">
+                    <div class="row">
+                        <div class="col-12 col-lg-5 d-flex flex-column justify-content-between">
+                            <div class="portfolio-top">
+                                <div class="d-flex justify-content-between flex-shrink-0 mb-2 mb-lg-3">
+                                    <h3 class="heading-3 line-5">ZernoGrad</h3>
+                                </div>
+                                <p class="subtitle font-color-secondary-black">Лендінг для таргетованої реклами Facebook
+                                    компанії-імпортера європейських елеваторів</p>
+                                <ul class="d-flex align-items-center flex-wrap mt-4 mt-lg-5">
+                                    <li class="me-4">Лендінг</li>
+                                    <li class="me-4">|</li>
+                                    <li class="me-4">Корпоративний сайт</li>
+                                    <li class="me-4">|</li>
+                                    <li class="me-4">UX-копірайтинг</li>
+                                    <li class="me-4">|</li>
+                                </ul>
+                            </div>
+                            <div class="portfolio-bottom d-flex align-items-center">
+                                <a class="btn btn-white me-3">
+                                    <div class="d-flex align-items-center">
+                                        <span class="me-2">Подивитися кейс</span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM22.7071 12.7071C23.0976 12.3166 23.0976 11.6834 22.7071 11.2929L16.3431 4.92893C15.9526 4.53841 15.3195 4.53841 14.9289 4.92893C14.5384 5.31946 14.5384 5.95262 14.9289 6.34315L20.5858 12L14.9289 17.6569C14.5384 18.0474 14.5384 18.6805 14.9289 19.0711C15.3195 19.4616 15.9526 19.4616 16.3431 19.0711L22.7071 12.7071ZM2 13H22V11H2V13Z"
+                                                fill="#292929" />
+                                        </svg>
+                                    </div>
+                                </a>
+                                <a href="" class="me-3">
+                                    <img src="img/Behance.png" alt="">
+                                </a>
+                                <a href="" class="me-3">
+                                    <img src="img/Dribbble.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 offset-lg-1 position-relative">
+                            <div class="wrapper cover">
+                                <img src="img/port-4.jpg" alt="">
+                            </div>
+                            <a class="wrapper-play-btn position-absolute bg-color-primary-white borders">
+                                <img class="position-absolute" src="img/text-circle-2.png" alt="">
+                                <div class="play-btn">
+                                    <img src="img/i-play.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="wrapper-portfolio bg-color-main rounded borders py-4 py-lg-5 my-4 my-lg-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <div class="d-flex align-items-center mb-2">
+                                <h3 class="heading-3 me-2">Не впевнені який сайт вам підійде? </h3>
+                                <img src="img/i-thinking.png" alt="">
+                            </div>
+                            <p class="subtitle">
+                                Напишіть нам, і ми детально проконсультуємо вас щодо всіх питань, розповімо про спосіб роботи та про всі етапи, які пройде сайт перед тим, як потрапити до вас!
+                            </p>
+                        </div>
+                        <div class="col-12 col-lg-4 d-flex justify-content-end">
+                            <div>
+                                <a class="btn btn-black me-3">
+                                    <div class="d-flex align-items-center">
+                                        <span class="me-2 font-color-primary-white">Отримати консультацію</span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM22.7071 12.7071C23.0976 12.3166 23.0976 11.6834 22.7071 11.2929L16.3431 4.92893C15.9526 4.53841 15.3195 4.53841 14.9289 4.92893C14.5384 5.31946 14.5384 5.95262 14.9289 6.34315L20.5858 12L14.9289 17.6569C14.5384 18.0474 14.5384 18.6805 14.9289 19.0711C15.3195 19.4616 15.9526 19.4616 16.3431 19.0711L22.7071 12.7071ZM2 13H22V11H2V13Z"
+                                                fill="#ffffff" />
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="famous py-4 py-lg-5 my-4 my-lg-5">
+            <div class="container mb-4 mb-lg-5">
+                <div class="wrapper-top">
+                    <p class="font-color-secondary-black font-main-medium text-uppercase mb-2 mb-lg-3 text-center">БУДЬТЕ ПЕРШИМИ</p>
+                    <div class="d-flex justify-content-center flex-shrink-0 mb-3 mb-lg-4 text-center">
+                        <h2 class="heading-2 line-1">Ми могли б розробити сайт<br>для цих компаній, але вони<br>про нас ще не знають</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid mb-4 mb-lg-5">
+                <div class="row">
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <div class="d-flex align-items-center justify-content-center bg-color-primary-white borders rounded p-4">
+                            <img src="img/fam-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <div class="d-flex align-items-center justify-content-center bg-color-primary-white borders rounded p-4">
+                            <img src="img/fam-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <div class="d-flex align-items-center justify-content-center bg-color-primary-white borders rounded p-4">
+                            <img src="img/fam-3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <div class="d-flex align-items-center justify-content-center bg-color-primary-white borders rounded p-4">
+                            <img src="img/fam-4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <div class="d-flex align-items-center justify-content-center bg-color-primary-white borders rounded p-4">
+                            <img src="img/fam-5.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <div class="d-flex align-items-center justify-content-center bg-color-primary-white borders rounded p-4">
+                            <img src="img/fam-6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="wrapper-top text-center">
+                    <div class="d-flex justify-content-center flex-shrink-0 mb-4 mb-lg-5 text-center">
+                        <h3 class="heading-3 line-5">Але тепер про нас знаєте ви!<br>І ми зробимо крутий та сучасний дизайн саме для вас</h3>
+                    </div>
+                    <a class="btn me-3">
+                        <div class="d-flex align-items-center">
+                            <span class="me-2">Отримати консультацію</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM22.7071 12.7071C23.0976 12.3166 23.0976 11.6834 22.7071 11.2929L16.3431 4.92893C15.9526 4.53841 15.3195 4.53841 14.9289 4.92893C14.5384 5.31946 14.5384 5.95262 14.9289 6.34315L20.5858 12L14.9289 17.6569C14.5384 18.0474 14.5384 18.6805 14.9289 19.0711C15.3195 19.4616 15.9526 19.4616 16.3431 19.0711L22.7071 12.7071ZM2 13H22V11H2V13Z"
+                                    fill="#292929" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-single-page py-4 py-lg-5 mb-4 mb-lg-5">
+            <div class="container">
+                <p class="font-color-secondary-black font-main-medium text-uppercase mb-2 mb-lg-3">ВІДПОВІДІ НА ПИТАННЯ</p>
+                <h2 class="heading-2 line-3 mb-5">Нас часто запитують</h2>
+                <div class="accordion accordion-2 mb-4 mb-lg-5" id="accordionExample2">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button heading-4 collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Як замовити сайт у вас?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample2">
+                            <div class="subtitle w-75 accordion-body pb-4 pb-lg-5">
+                                Чтобы заказать сайт у нас, вам достаточно всего лишь оставить заявку на сайте! Мы перезвоним вам и поговорим о вашем бизнесе и задачах, которые должен решать сайт. В итоге, наша команда предложит вам идеальный вариант сайта конкретно под ваши запросы, а также рассчитает ориентировочную стоимость проекта и сроки его исполнения.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button heading-4 collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Скільки коштує розробка сайту?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample2">
+                            <div class="subtitle w-75 accordion-body pb-4 pb-lg-5">
+                                Чтобы заказать сайт у нас, вам достаточно всего лишь оставить заявку на сайте! Мы перезвоним вам и поговорим о вашем бизнесе и задачах, которые должен решать сайт. В итоге, наша команда предложит вам идеальный вариант сайта конкретно под ваши запросы, а также рассчитает ориентировочную стоимость проекта и сроки его исполнения.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button heading-4 collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Що коли я слачу кошти, але не отримую сайт?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample2">
+                            <div class="subtitle w-75 accordion-body pb-4 pb-lg-5">
+                                Чтобы заказать сайт у нас, вам достаточно всего лишь оставить заявку на сайте! Мы перезвоним вам и поговорим о вашем бизнесе и задачах, которые должен решать сайт. В итоге, наша команда предложит вам идеальный вариант сайта конкретно под ваши запросы, а также рассчитает ориентировочную стоимость проекта и сроки его исполнения.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button heading-4 collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Що коли мені не сподобається дизайн або верстка?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample2">
+                            <div class="subtitle w-75 accordion-body pb-4 pb-lg-5">
+                                Чтобы заказать сайт у нас, вам достаточно всего лишь оставить заявку на сайте! Мы перезвоним вам и поговорим о вашем бизнесе и задачах, которые должен решать сайт. В итоге, наша команда предложит вам идеальный вариант сайта конкретно под ваши запросы, а также рассчитает ориентировочную стоимость проекта и сроки его исполнения.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button heading-4 collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Ви зробили мені сайт. А що далі?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample2">
+                            <div class="subtitle w-75 accordion-body pb-4 pb-lg-5">
+                                Чтобы заказать сайт у нас, вам достаточно всего лишь оставить заявку на сайте! Мы перезвоним вам и поговорим о вашем бизнесе и задачах, которые должен решать сайт. В итоге, наша команда предложит вам идеальный вариант сайта конкретно под ваши запросы, а также рассчитает ориентировочную стоимость проекта и сроки его исполнения.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">               
+                    <a class="btn btn-black me-3">
+                        <div class="d-flex align-items-center">
+                            <span class="me-2 font-color-primary-white">Поставити своє питання</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM22.7071 12.7071C23.0976 12.3166 23.0976 11.6834 22.7071 11.2929L16.3431 4.92893C15.9526 4.53841 15.3195 4.53841 14.9289 4.92893C14.5384 5.31946 14.5384 5.95262 14.9289 6.34315L20.5858 12L14.9289 17.6569C14.5384 18.0474 14.5384 18.6805 14.9289 19.0711C15.3195 19.4616 15.9526 19.4616 16.3431 19.0711L22.7071 12.7071ZM2 13H22V11H2V13Z"
+                                    fill="#ffffff" />
+                            </svg>
+                        </div>
+                    </a>
+                </div> 
+            </div>
+        </section>
+
+        <section class="contacts borders rounded bg-color-primary-white py-4 py-lg-5 mb-3 mb-lg-4">
+            <div class="container py-4 py-lg-5">
+                <h2 class="heading-2 line-1 mb-5">Вже готові почати роботу?<br>Зв'яжіться з нами</h2>
+                <div class="row pt-4">
+                    <div class="col-12 col-lg-4">
+                        <div class="form">
+                            <div class="wrapper-input mb-3 mb-lg-4">
+                                <input type="text" class="form-input" placeholder="Ваше ім’я">
+                            </div>
+                            <div class="wrapper-input mb-4 mb-lg-5">
+                                <input type="text" class="form-input" placeholder="Ваш номер телефону">
+                            </div>
+                            <button class="btn d-flex align-items-center justify-content-center w-100">
+                                <span class="me-2">Відправити заявку</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M2 11C1.44772 11 1 11.4477 1 12C1 12.5523 1.44772 13 2 13V11ZM22.7071 12.7071C23.0976 12.3166 23.0976 11.6834 22.7071 11.2929L16.3431 4.92893C15.9526 4.53841 15.3195 4.53841 14.9289 4.92893C14.5384 5.31946 14.5384 5.95262 14.9289 6.34315L20.5858 12L14.9289 17.6569C14.5384 18.0474 14.5384 18.6805 14.9289 19.0711C15.3195 19.4616 15.9526 19.4616 16.3431 19.0711L22.7071 12.7071ZM2 13H22V11H2V13Z"
+                                        fill="#292929" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 offset-2">
+                        <div class="row">
+                            <div class="col-6 mb-4 mb-lg-5">
+                                <h4 class="heading-4 font-color-secondary-black mb-1 mb-lg-2">О1</h4>
+                                <p class="subtitle">Поговоримо з вами та дізнаємось все про завдання бізнесу</p>
+                            </div>
+                            <div class="col-6 mb-4 mb-lg-5">
+                                <h4 class="heading-4 font-color-secondary-black mb-1 mb-lg-2">О2</h4>
+                                <p class="subtitle">Надамо попереднью оцінку щодо термінів виконання та прайсу</p>
+                            </div>
+                            <div class="col-6 mb-4 mb-lg-5">
+                                <h4 class="heading-4 font-color-secondary-black mb-1 mb-lg-2">О3</h4>
+                                <p class="subtitle">Підготуємо комерційну пропозицію</p>
+                            </div>
+                            <div class="col-6 mb-4 mb-lg-5">
+                                <h4 class="heading-4 font-color-secondary-black mb-1 mb-lg-2">О4</h4>
+                                <p class="subtitle">Скоординуємо щодо подальших дій</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer bg-color-primary-black py-4 py-lg-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 pt-4 pt-lg-5">
+                <div class="col mb-3">
+                    <a href="/" class="d-flex align-items-center mb-4 mb-lg-5">
+                        <div class="wrapper">
+                            <img src="img/logo-w.png" alt="">
+                        </div>
+                    </a>
+                    <div class="wrapper-info">
+                        <div class="mb-3 mb-lg-4">
+                            <p class="font-color-primary-white mb-1 mb-lg-2">Номер телефону:</p>
+                            <a class="subtitle font-color-main">+38 (050) 534 08 53</a>
+                        </div>
+                        <div class="mb-3 mb-lg-4">
+                            <p class="font-color-primary-white mb-1 mb-lg-2">Напишіть нам в Telegram</p>
+                            <a class="subtitle font-color-main">@a_doronin</a>
+                        </div>
+                        <div class="mb-3 mb-lg-4">
+                            <p class="font-color-primary-white mb-2 mb-lg-3">Ми в соціальних медіа</p>
+                            <div class="social-media d-flex align-items-center">
+                                <a class="color-arrow d-inline-block me-2" href="#">
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M16 0.401367C7.16344 0.401367 0 7.56481 0 16.4014C0 25.2379 7.16344 32.4014 16 32.4014C24.8366 32.4014 32 25.2379 32 16.4014C32 7.56481 24.8366 0.401367 16 0.401367ZM12.4821 7.91952C13.3924 7.8781 13.6832 7.86797 16.0007 7.86797H15.9981C18.3163 7.86797 18.6061 7.8781 19.5163 7.91952C20.4248 7.96112 21.0452 8.10495 21.5892 8.31597C22.151 8.53375 22.6257 8.82531 23.1004 9.29998C23.575 9.7743 23.8666 10.2504 24.0853 10.8116C24.295 11.3542 24.439 11.9743 24.4817 12.8828C24.5226 13.793 24.5333 14.0839 24.5333 16.4014C24.5333 18.7189 24.5226 19.0091 24.4817 19.9193C24.439 20.8274 24.295 21.4477 24.0853 21.9904C23.8666 22.5515 23.575 23.0276 23.1004 23.5019C22.6262 23.9766 22.1508 24.2689 21.5898 24.4868C21.0468 24.6978 20.426 24.8417 19.5176 24.8833C18.6073 24.9247 18.3174 24.9348 15.9997 24.9348C13.6823 24.9348 13.3916 24.9247 12.4814 24.8833C11.5731 24.8417 10.9529 24.6978 10.4099 24.4868C9.84903 24.2689 9.37293 23.9766 8.89879 23.5019C8.4243 23.0276 8.13274 22.5515 7.91461 21.9902C7.70376 21.4477 7.55994 20.8276 7.51816 19.9191C7.47691 19.0089 7.4666 18.7189 7.4666 16.4014C7.4666 14.0839 7.47727 13.7928 7.51798 12.8826C7.55887 11.9745 7.70287 11.3542 7.91443 10.8115C8.1331 10.2504 8.42465 9.7743 8.89933 9.29998C9.37364 8.82549 9.84974 8.53393 10.411 8.31597C10.9536 8.10495 11.5737 7.96112 12.4821 7.91952ZM16 12.8458C17.9636 12.8458 19.5556 14.4376 19.5556 16.4014C19.5556 18.3649 17.9636 19.9569 16 19.9569C14.0362 19.9569 12.4444 18.3649 12.4444 16.4014C12.4444 14.4376 14.0362 12.8458 16 12.8458ZM21.3333 11.9569C21.3333 11.466 20.9353 11.068 20.4444 11.068C19.9535 11.068 19.5556 11.466 19.5556 11.9569C19.5556 12.4478 19.9535 12.8458 20.4444 12.8458C20.9353 12.8458 21.3333 12.4478 21.3333 11.9569Z"
+                                            fill="#AEFF7B" />
+                                    </svg>
+                                </a>
+                                <a class="color-arrow d-inline-block me-2" href="#">
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M16 0.401367C7.16344 0.401367 0 7.56481 0 16.4014C0 25.2379 7.16344 32.4014 16 32.4014C24.8366 32.4014 32 25.2379 32 16.4014C32 7.56481 24.8366 0.401367 16 0.401367ZM17.6677 17.1042V25.809H14.0661V17.1045H12.2667V14.1048H14.0661V12.3037C14.0661 9.85656 15.0821 8.40137 17.9688 8.40137H20.3721V11.4014H18.8699C17.7462 11.4014 17.6718 11.8207 17.6718 12.603L17.6677 14.1044H20.3891L20.0707 17.1042H17.6677Z"
+                                            fill="#AEFF7B" />
+                                    </svg>
+                                </a>
+                                <a class="color-arrow d-inline-block me-2" href="#">
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 16.4014C0 25.2379 7.16344 32.4014 16 32.4014C24.8366 32.4014 32 25.2379 32 16.4014C32 7.56481 24.8366 0.401367 16 0.401367C7.16344 0.401367 0 7.56481 0 16.4014ZM13.0667 23.7347L13.3389 19.6562L13.3387 19.656L20.758 12.9607C21.0836 12.6717 20.6868 12.5308 20.2546 12.7929L11.0982 18.5696L7.14312 17.3351C6.289 17.0736 6.28287 16.4867 7.33488 16.0647L22.7469 10.1219C23.4508 9.80236 24.1302 10.291 23.8615 11.3684L21.2368 23.7368C21.0535 24.6157 20.5225 24.8259 19.7867 24.4199L15.7885 21.466L13.8667 23.3347C13.8606 23.3406 13.8546 23.3465 13.8486 23.3523C13.6336 23.5616 13.4558 23.7347 13.0667 23.7347Z"
+                                            fill="#AEFF7B" />
+                                    </svg>
+                                </a>
+                                <a class="color-arrow d-inline-block me-2" href="#">
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M16 0.401367C7.16344 0.401367 0 7.56481 0 16.4014C0 25.2379 7.16344 32.4014 16 32.4014C24.8366 32.4014 32 25.2379 32 16.4014C32 7.56481 24.8366 0.401367 16 0.401367ZM15.2967 12.1768C15.6188 12.6193 15.7804 13.1479 15.7804 13.7647C15.7804 14.3992 15.6188 14.911 15.2927 15.2971C15.1101 15.5129 14.8422 15.7109 14.488 15.8891C15.0258 16.0831 15.4312 16.389 15.7071 16.8077C15.9801 17.2255 16.1176 17.7343 16.1176 18.3323C16.1176 18.949 15.961 19.5024 15.6469 19.9914C15.4483 20.3151 15.1994 20.5883 14.9004 20.8101C14.5642 21.0645 14.1679 21.2378 13.7093 21.3328C13.2507 21.4268 12.755 21.4724 12.2191 21.4724H7.4668V11.068H12.5633C13.8498 11.0868 14.7599 11.4561 15.2967 12.1768ZM18.3723 12.848H22.8919V11.5531H18.3723V12.848ZM19.443 15.6733C19.155 15.9663 18.9734 16.3633 18.8991 16.8642H22.4142C22.3771 16.3296 22.1945 15.9257 21.8714 15.6475C21.5442 15.3713 21.1418 15.2337 20.6602 15.2337C20.1384 15.2337 19.731 15.3802 19.443 15.6733ZM23.8401 15.0734C23.4869 14.5546 23.0384 14.1745 22.4935 13.9349C21.9496 13.6944 21.3385 13.5736 20.6592 13.5736C19.5162 13.5736 18.5881 13.931 17.8706 14.6408C17.1551 15.3525 16.7969 16.3751 16.7969 17.7086C16.7969 19.1302 17.1923 20.1577 17.988 20.7883C18.7797 21.4199 19.6959 21.7347 20.7344 21.7347C21.9918 21.7347 22.9701 21.3605 23.6685 20.6131C24.1161 20.1419 24.3689 19.6776 24.4241 19.2222H22.342C22.2216 19.4479 22.0811 19.6241 21.9215 19.7518C21.6315 19.9865 21.2532 20.1043 20.7906 20.1043C20.3511 20.1043 19.9768 20.0073 19.6658 19.8142C19.152 19.5044 18.8831 18.9629 18.849 18.1917H24.5315C24.5405 17.5274 24.5185 17.0166 24.4633 16.6642C24.3689 16.0613 24.1622 15.5307 23.8401 15.0734ZM9.56903 16.8919V19.6667H12.1298C12.5874 19.6667 12.9446 19.6053 13.1985 19.4836C13.6611 19.2559 13.8919 18.8243 13.8919 18.1848C13.8919 17.6423 13.6691 17.271 13.2206 17.0681C12.9697 16.9552 12.6175 16.8959 12.166 16.8919H9.56903ZM9.56903 15.1704V12.8747H11.8649C12.3697 12.8747 12.7851 12.9291 13.1122 13.037C13.4895 13.1935 13.6782 13.5132 13.6782 13.9993C13.6782 14.4348 13.5347 14.7397 13.2497 14.912C12.9627 15.0842 12.5904 15.1704 12.1339 15.1704H9.56903Z"
+                                            fill="#AEFF7B" />
+                                    </svg>
+                                </a>
+                                <a class="color-arrow d-inline-block me-2" href="#">
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M16 0.401367C7.16344 0.401367 0 7.56481 0 16.4014C0 25.2379 7.16344 32.4014 16 32.4014C24.8366 32.4014 32 25.2379 32 16.4014C32 7.56481 24.8366 0.401367 16 0.401367ZM24.3593 18.1047C24.4747 17.5429 24.5335 16.9666 24.5335 16.3895C24.5335 15.812 24.4747 15.2345 24.3593 14.674C24.2468 14.1256 24.0801 13.5863 23.8618 13.0725C23.6485 12.5665 23.3839 12.0789 23.0747 11.6245C22.7701 11.1726 22.4193 10.7499 22.0338 10.3633C21.6476 9.97882 21.2225 9.62975 20.7712 9.32435C20.3154 9.01601 19.8275 8.75179 19.3216 8.5371C18.8061 8.31948 18.2665 8.15265 17.7186 8.04112C17.1561 7.92629 16.5777 7.86803 15.9998 7.86803C15.4214 7.86803 14.8431 7.92629 14.2814 8.04112C13.7326 8.15262 13.193 8.31945 12.6779 8.5371C12.1721 8.75183 11.6837 9.01601 11.2279 9.32435C10.7766 9.62975 10.3516 9.97882 9.96614 10.3633C9.5803 10.7499 9.22943 11.1726 8.92442 11.6245C8.6169 12.0789 8.35187 12.5665 8.13771 13.0725C7.91934 13.5863 7.75227 14.1256 7.63934 14.674C7.52511 15.2345 7.4668 15.812 7.4668 16.3895C7.4668 16.9666 7.52515 17.5429 7.63931 18.1047C7.75224 18.653 7.9193 19.1915 8.13768 19.7062C8.35184 20.2117 8.61687 20.699 8.92439 21.1533C9.2294 21.6048 9.58027 22.0284 9.96611 22.4145C10.3516 22.7989 10.7766 23.1489 11.2278 23.4547C11.6837 23.7618 12.1721 24.026 12.6779 24.2403C13.1929 24.4575 13.7326 24.6239 14.2813 24.7362C14.843 24.8519 15.4214 24.911 15.9997 24.911C16.5777 24.911 17.1561 24.8519 17.7186 24.7362C18.2665 24.6239 18.8061 24.4575 19.3216 24.2403C19.8275 24.026 20.3154 23.7618 20.7712 23.4547C21.2225 23.1488 21.6475 22.7989 22.0338 22.4145C22.4192 22.0284 22.7701 21.6048 23.0747 21.1533C23.3839 20.699 23.6485 20.2118 23.8618 19.7062C24.0801 19.1915 24.2468 18.6531 24.3593 18.1047ZM8.86851 14.8891C9.34146 12.6356 10.8582 10.7657 12.8904 9.80742C12.9875 9.93686 14.3351 11.763 15.5964 14.0008C12.1343 14.9193 9.12457 14.8915 8.87551 14.8892L8.86851 14.8891ZM16.2001 15.1213C12.4479 16.243 8.84727 16.1623 8.71811 16.1574C8.71746 16.1815 8.71665 16.2054 8.71585 16.2292L8.71584 16.2296L8.71583 16.2296C8.71404 16.2828 8.71226 16.3356 8.71226 16.3895C8.71226 18.259 9.41854 19.9633 10.5794 21.2519C10.5769 21.2482 12.5712 17.7152 16.5039 16.4453C16.5989 16.4137 16.6956 16.3854 16.7914 16.3579C16.6085 15.9443 16.4089 15.5299 16.2001 15.1213ZM15.9997 9.113C17.8448 9.113 19.5295 9.79825 20.8125 10.928L20.8119 10.9289C20.7774 10.9804 19.7341 12.5408 17.0069 13.5618C15.7949 11.3395 14.467 9.56352 14.2944 9.33273L14.2826 9.31688C14.833 9.18457 15.4076 9.113 15.9997 9.113ZM17.2881 17.5637L17.2704 17.5694L17.2704 17.5694C17.2601 17.5726 17.2499 17.5759 17.2398 17.5795C12.9401 19.0763 11.5359 22.0928 11.5207 22.1257C12.7579 23.0864 14.3097 23.6661 15.9997 23.6661C17.0089 23.6661 17.9702 23.4609 18.8449 23.0894C18.7369 22.4536 18.3136 20.225 17.2881 17.5637ZM23.1947 17.5429C22.8705 19.571 21.7084 21.3218 20.072 22.4245C19.9979 21.9859 19.6095 19.8497 18.6536 17.2267C21.0058 16.8501 23.0447 17.4946 23.1947 17.5429ZM17.5678 14.6461C17.7369 14.9931 17.9007 15.3463 18.0519 15.7013C18.1057 15.8286 18.1582 15.9535 18.2094 16.0783C20.665 15.7697 23.0848 16.273 23.2761 16.3128L23.2847 16.3146C23.2681 14.5895 22.6501 13.0063 21.6276 11.7668L21.6272 11.7674C21.5988 11.8078 20.4266 13.4802 17.5678 14.6461Z"
+                                            fill="#AEFF7B" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-3">
+
+                </div>
+
+                <div class="col mb-3">
+                    <h5 class="heading-5 font-color-primary-white mb-3 mb-lg-4">Студія</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2 mb-lg-3"><a href="#" class="font-color-primary-white">Портфоліо</a>
+                        </li>
+                        <li class="nav-item mb-2 mb-lg-3"><a href="#" class="font-color-primary-white">Відгуки</a></li>
+                        <li class="nav-item mb-2 mb-lg-3"><a href="#" class="font-color-primary-white">Про нас</a></li>
+                        <li class="nav-item mb-2 mb-lg-3"><a href="#" class="font-color-primary-white">Контакти</a></li>
+                        <li class="nav-item mb-2 mb-lg-3"><a href="#" class="font-color-primary-white">Блог</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5 class="heading-5 font-color-primary-white mb-3 mb-lg-4">Услуги</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2 mb-lg-3"><a href="#" class="font-color-primary-white">Односторінковий
+                                сайт</a></li>
+                        <li class="nav-item mb-2 mb-lg-3"><a href="#" class="font-color-primary-white">Корпоративний
+                                сайт</a></li>
+                        <li class="nav-item mb-2 mb-lg-3"><a href="#"
+                                class="font-color-primary-white">Інтернет-магазин</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-hr mb-4 mb-lg-5"></div>
+            <div class="d-flex justify-content-between flex-wrap">
+                <span class="font-secondary-regular font-color-primary-white">Equator Studio, 2022 © Всі права
+                    захищені</span>
+                <div>
+                    <a href="" class="font-secondary-regular font-color-primary-white me-4">Політика
+                        конфіденційності</a>
+                    <a href="#" class="font-secondary-regular font-color-primary-white">Повернутися нагору</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const swiperInfo1 = new Swiper('.swiper-info-1', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 30,
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-arrow-info-1-next',
+                prevEl: '.swiper-arrow-info-1-prev',
+            },
+        });
+    </script>
+
+</body>
+
+</html>
